@@ -1,0 +1,11 @@
+- Sliding Window maintains a contiguous subarray
+- Key Concept:
+    Window: A contiguous subarray
+    Left/Right Pointer: Defines boundaries of window
+    Expand: Move right pointer to include more elements
+    Contract: Move left pointer to exclude elements
+- Types of Sliding Window
+    Fixed Size Window: The window size remains constant throughout the algorithm.
+    Variable Size Window: The window size changes based on conditions:
+        Expandable: Window can grow indefinitely until a condition is met
+        Shrinkable: Window shrinks when a condition is violated

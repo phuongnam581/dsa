@@ -1,0 +1,15 @@
+- Use two pointer to traverse data structures, typically arrays or strings
+- Common Patterns:
+    Opposite Direction: Pointers start at opposite ends and move toward each other
+        Used for: palindrome checking, two sum in sorted arrays, container problems
+        Key insight: Eliminate need for nested loops
+
+    Same Direction (Fast/Slow): Both pointers move in same direction at different speeds
+        Used for: remove duplicates, cycle detection, sliding windows variation
+        Key insight: One pointer "explores" while other "maintains state"
+
+    Fixed Distance: Pointers maintain constant distance apart
+        Used for: finding pairs with specific difference
+        Key insight: Maintains relationship while traversing
+
+
